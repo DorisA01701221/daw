@@ -1,0 +1,22 @@
+
+body {background-color: rgb(240,240,240);}
+h1   {color: black;
+    font-family: verdana;
+    font-size: 300%;
+}
+h2 {color: rgb(60,60,60);
+    font-family: arial;
+    font-size: 200%;
+}
+h3 {border: solid MediumSeaGreen;
+    font-family: arial;
+    font-size: 200%;
+}
+p    {color: red;
+    font-family: arial;
+    font-size: 100%;
+}
+table {background-color:MediumSeaGreen;
+    font-family: arial;
+    font-size: 100%;
+}
