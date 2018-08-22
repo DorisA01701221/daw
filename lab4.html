@@ -5,7 +5,74 @@
     <title>A01701221_lab4</title>
   </head>
   <body>
+    <h1>case 1</h1>
     <button type="button" onclick="hacer_tabla()">Tabla</button>
-    <script type="text/javascript" src="lab4.js"></script>
+    <h1>case 2</h1>
+    <button type="button" onclick="adivina_suma()">adivinanza</button>
+    <h1>case 3</h1>
+    <button type="button" onclick="contador()">arreglo</button>
+    <h1>case 4</h1>
+    <button type="button" onclick="promedios()">promedios</button>
+    <h1>case 5</h1>
+    <button type="button" onclick="inverso()">inverso</button>
+    <h1>case 6</h1>
+    <a href="#cal"><button type="button">calculadora</button></a>
+    <div id="cal">
+      <p>calculadora para uso múltiple con solo 2 numero: puede sumar, restar, multiplicar y dividir</p>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <label for="num1">pon un numero</label>
+      <input type="number" name="num1" id="num1"/>
+      <br><br>
+      <label for="num2">pon otro numero</label>
+      <input type="number" name="num2" id="num2"/>
+      <br><br>
+      <button type="button" onclick="suma()"> + </button>
+      <br>
+      <button type="button" onclick="resta()"> - </button>
+      <br>
+      <button type="button" onclick="multi()"> x </button>
+      <br>
+      <button type="button" onclick="divi()"> / </button>
+      <br><br><br>
+      <label for="res">resultado: </label>
+      <input type="text" name="res" id="res" disabled />
+    </div>
+    
+    <h1>RESPUESTAS PREGUNTAS</h1>
+    <h2><strong>¿Qué diferencias y semejanzas hay entre Java y JavaScript?</strong></h2>
+    <p>javascript: -archivos de texto.
+-todo se depura al mismo tiempo.
+-lenguaje basado en prototipos.
+-débilmente tipado.
+-trabajo por funciones(parecido a c).</p>
+<p>java:
+-se compilan a un archivo optimizado.
+-lenguaje bytecode.
+-se depura: compilandolo donde indica los errores, después podría haber errores de lógica.
+-lenguaje orientado a objetos.
+-fuertemente timado.
+-ámbito de trabajo en bloques.
+</p>
+<h2><strong>¿Qué métodos tiene el objeto Date? (Menciona al menos 5*)</strong></h2>
+    <p>1.- hora estándar mundial
+2.-fecha y hora universales
+3.-fecha y hora locales
+4.-devuelve valor numérico a la hora actual.
+5.-devuelve milisengundos en cadena.</p>
+<h2><strong>¿Qué métodos tienen los arreglos? (Menciona al menos 5*)</strong></h2>
+  <p>1.-lastIndex(): devuelve posición del arras, si hay repeticiones, regresa e final.
+2.-push(): añade nuevos elementos
+3.-shift(): elimina el primer elemento del array
+4.-split(): convierte un string en array
+5.- join(): junta elementos del arras en cadenas.</p>
+  <h2><strong>¿Cómo se declara una variable con alcance local dentro de una función?</strong></h2>
+  <p>como let</p>
+  <h2><strong>¿Qué implicaciones tiene utilizar variables globales dentro de funciones?</strong></h2>
+  <p>pueden seguir sirviendo después, no se eliminan como las variables let.</p>
+  <h2><strong>¿Qué método de String se puede utilizar para buscar patrones con expresiones regulares?¿Para qué podrías utilizar esto en una aplicación web?</strong></h2>
+  <p>con + encontrará lo similar. por ejemplo blusas, b+ encontrará la cadena de b como blusa o bufanda, etc.
+me serviría cuando hago búsquedas rápidas.</p>
+  <!-- es mejor poner el script hasta abajo: por eficiencia y funcionalidad -->  
+  <script type="text/javascript" src="lab4.js"></script>
   </body>  
 </html>
