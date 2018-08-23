@@ -9,20 +9,24 @@ body{background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.
 h1  {color: black;
     font-family: verdana;
     font-size: 400%;
+    text-align: center;
 }
 h2 {color: rgb(60,60,60);
     font-family: arial;
     font-size: 350%;
+    text-align: center;
 }
 h3 {border: #EE5288;
     background-image: url(https://img.freepik.com/free-vector/technology-background-with-gradient-colors_23-2147837710.jpg?size=338c&ext=jpg);
     font-family: arial;
     font-size: 300%;
     color: white;
+    text-align: center;
 }
 p    {color: black;
     font-family: arial;
     font-size: 250%;
+    text-align: center;
     background-image: url(https://wallpapertag.com/wallpaper/full/a/b/c/235308-aesthetic-background-tumblr-2280x1668-meizu.jpg);
 }
 table, th, tr, td {background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/RfeyEzE/random-lines-purple-geometric-shapes-background_ryp-ysybl_thumbnail-full01.png);
@@ -37,7 +41,7 @@ td:hover {
 th:hover{
     background-color: #efabfc;
 }
-ul {
+ul, ol {
     list-style-type: none;
     margin: 2%;
     padding: 2%;
@@ -49,6 +53,7 @@ ul {
 
 li {
     float: left;
+    color: white;
 }
 
 li a {
