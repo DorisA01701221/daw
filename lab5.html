@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset = "UTF-8" />
+      <title>A01701221_lab5</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="styles.css">
+        <header>
+            <h3>Lab5: Validar Password / minishop</h3>
+        </header>
+        <article>
+           <form  id="form1" name="form1" method="POST" action="shop.html">
+                <label for="username">username: </label>
+                <input type="text" id="username" tabindex="1" class="form-control" placeholder="Usuario" value="" required>
+                <br>
+                <label for="password1">Introduzca contraseña:</label>
+                <input type="password" id="password1" placeholder="introduzca contraseña" required>
+                <br>
+                <label for="password2">Repita la contraseña:</label>
+                <input type="password" id="password2" placeholder="repite contraseña" required>
+                <br>
+                <input type="button" value="OK" onclick="validar_password()"/>
+                <input type="reset" value="limpiar"/>
+            </form>
+        </article>
+        <br>
+        <article>
+            <h3>Lab5: Otras Validaciones</h3>
+        </article>
+        <br>
+        <article>
+        <br>    
+            <h3>Preguntas y Respuestas: </h3>
+            <h4>¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?</h4>
+            <p>porque está del lado del cliente, puedes usar expresiones regulares</p>
+            <h4>¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?</h4>
+            <p>modificandolo desde inspeccionar con click derecho</p>
+            <h4>Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?</h4>
+            <p>para no darle carga extra al servidor</p>
+        </article>
+        <script type="text/javascript" src="lab5.js"></script>
+    </body>
+</html>
