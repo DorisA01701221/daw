@@ -12,3 +12,11 @@ function validar_password(){
         document.getElementById("form1").submit();
 }
 }
+function validar_email(){
+   let email= document.getElementById("GETemail").value;
+   if(email.hasOwnProperty('@')){
+       alert('tu email es correcto');
+   }else{
+       alert('tu email es incorrecto');
+   }
+}
