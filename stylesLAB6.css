@@ -1,0 +1,67 @@
+body{background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-style: normal;
+    font-size: medium;
+}
+header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+img.irc_mi{
+    width: 50%;
+    height: 25%;
+    left: 0px;
+    top: 0px;
+    background-attachment: fixed;
+    border-radius: 50%;
+}
+section.validaciones{
+    
+}
+div.divider{
+    height: 1px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(https://thumbs.dreamstime.com/b/grunge-white-grey-cement-wall-texture-background-old-48595387.jpg);
+}
+#password1{
+    border: 1px solid black;
+    background-image:url(https://i.pinimg.com/originals/bb/0d/45/bb0d4572eae04ea2b806c6a05b0e2afa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 120px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+}
+#password2{
+    border: 1px solid black;
+    background-image:url(https://i.pinimg.com/originals/bb/0d/45/bb0d4572eae04ea2b806c6a05b0e2afa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 120px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+}
+h3{
+    visibility: visible;
+}
+div.dropE {
+    /*width: 350px;
+    height: 70px;*/
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+img.puppie{
+    width:200px;
+    height:150px;
+}
