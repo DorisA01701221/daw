@@ -51,8 +51,6 @@ ul.navbar-nav {
 
 ul, ol {
     list-style-type: none;
-    margin: 2%;
-    padding: 2%;
     overflow: hidden;
     background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/RfeyEzE/random-lines-purple-geometric-shapes-background_ryp-ysybl_thumbnail-full01.png);
     background-repeat: no-repeat;
@@ -154,7 +152,6 @@ div.description {
 }
 
 footer {
-    position: absolute;
     width: 100%;
     bottom: 0;
     left: 0;
