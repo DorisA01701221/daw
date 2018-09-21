@@ -1,4 +1,4 @@
-<?php  
+<?php
     function promedio($arr){
         $suma=0;
         foreach($arr as $element){
@@ -16,15 +16,15 @@
             echo '<li>el promedio es: '.promedio($arr).'</li>';
             echo'<li>la mediana es: '.mediana($arr).'</li>';
         echo '</ul>';
-            
-        echo '<ul> <h2>lista de menor a mayor</h2>';   
+
+        echo '<ul> <h2>lista de menor a mayor</h2>';
             if(sort($arr)){
                 foreach($arr as $element){
                     echo '<li>'.$element.'</li>';
                 }
         echo '</ul>';
             }
-            echo '<ul> <h2>lista de mayor a menor</h2>'; 
+            echo '<ul> <h2>lista de mayor a menor</h2>';
                 if(rsort($arr)){
                     foreach($arr as $element){
                         echo '<li>'.$element.'</li>';
@@ -33,7 +33,7 @@
             echo '</ul>';
     }
     function tabla(){
-        echo'<table> 
+        echo'<table>
             <thead>
             <tr><th>numero</th>
                 <th>cuadrado</th>
@@ -41,7 +41,7 @@
             </tr>
             </thead>
             <tbody>';
-        
+
         for($n=1;$n<5;$n++){
             $doble=$n*$n;
             $triple=$n*$n*$n;
@@ -62,4 +62,5 @@
             }
             echo'el inverso es: '.$inverse;
     }
+
 ?>

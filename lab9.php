@@ -1,11 +1,11 @@
-<?php  
+<?php
    include_once'scripts.php';
    echo'
     <!DOCTYPE html>
     <html>
     <head>
         <meta charset = "UTF-8" />
-        <title>A01701221_lab3</title>
+        <title>A01701221_lab9</title>
     </head>
     <body>';
     echo' <h1> ejercicio 1 </h1> <br>';
@@ -21,14 +21,6 @@
             $arreglo=[6.4,7.8,7.8,9.8,8.9];
             echo 'el arreglo es: '.json_encode($arreglo).'<br>';
             inverso($arreglo);
-  
-  
-  
-  
-  
-  
-  
-  
    echo'
         <footer>
               <p>hecho por: Doris Gopar Calvo</p>
@@ -36,5 +28,5 @@
         </footer>
     </body>
 </html>
-   ';  
+   ';
 ?>

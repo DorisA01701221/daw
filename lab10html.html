@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8" />
+    <title>A01701221_lab10</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="lab6JS.js"></script>
+</head>
+<body>
+<h1>Registrate para comenzar</h1>
+  <form id="login" method="post" action="validarsesion.php">
+    <div class="form-group">
+      <input type="email" class="from-control" name="email" id="inputEmail" placeholder="fulana@gmail.com">
+    </div>
+    <div class="form-group">
+      <input type="password" class="from-control" name="password" id="inputPassword" placeholder="password">
+    </div>
+    <div class="forgot">
+      <a href="reset.html">Forgot password?</a>
+    </div>
+    <button type="button" onclick="validar_submit()" class="btn btn-primary">Login</button>
+  </form>
+</body>
+</html>
