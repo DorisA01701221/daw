@@ -9,18 +9,20 @@
     <script src="lab6JS.js"></script>
 </head>
 <body>
-<h1>Registrate para comenzar</h1>
-  <form id="login" method="post" action="validarsesion.php">
-    <div class="form-group">
-      <input type="email" class="from-control" name="email" id="inputEmail" placeholder="fulana@gmail.com">
-    </div>
-    <div class="form-group">
-      <input type="password" class="from-control" name="password" id="inputPassword" placeholder="password">
-    </div>
-    <div class="forgot">
-      <a href="reset.html">Forgot password?</a>
-    </div>
-    <button type="button" onclick="validar_submit()" class="btn btn-primary">Login</button>
-  </form>
+<link rel="stylesheet" href="styles.css">
+<br><br><br>
+  <h1>Registrate para comenzar</h1>
+  <br><br><br>
+    <form id="login" method="post" action="validarsesion.php">
+      <div class="form-group">
+        <input type="email" class="from-control" name="email" id="inputEmail" placeholder="fulana@gmail.com">
+      </div>
+      <div class="form-group">
+        <input type="password" class="from-control" name="password" id="inputPassword" placeholder="password">
+      </div>
+      <div class="container-login">
+          <button class="login100-form-btn" type="button" onclick="validar_submit()" class="btn btn-primary">Login</button>
+      </div>
+    </form>
 </body>
 </html>

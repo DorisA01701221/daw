@@ -5,6 +5,7 @@ body{background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.
     margin-right:10%;
     margin-top: auto;
     margin-bottom: auto;
+
 }
 h1  {color: black;
     font-family: verdana;
@@ -184,4 +185,36 @@ div.description {
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+/*login lab 10*/
+#login {
+    border: 3px solid #f1f1f1;
+    width: 100%;;
+}
+.login100-form-btn{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 42px;
+    border-radius: 21px;
+    background: -webkit-linear-gradient(left, #a445b2, #d41872, #fa4299);
+    position:relative;
+    text-align: center;
+}
+.container-login{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
