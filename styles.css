@@ -218,3 +218,7 @@ div.description {
   flex-wrap: wrap;
   justify-content: center;
 }
+label{
+  width: 8%;
+  float: left;
+}
