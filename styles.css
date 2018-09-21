@@ -1,4 +1,5 @@
-body{background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
+body{
+    background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-left:10%;
@@ -6,10 +7,12 @@ body{background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.
     margin-top: auto;
     margin-bottom: auto;
 }
-h1  {color: black;
-    font-family: verdana;
-    font-size: 400%;
-    text-align: center;
+
+h1  {
+    color: black;
+    font-family: verdana !important;
+    font-size: 400% !important;
+    text-align: center !important;
 }
 h2 {color: rgb(60,60,60);
     font-family: arial;
@@ -41,6 +44,11 @@ td:hover {
 th:hover{
     background-color: #efabfc;
 }
+
+ul.navbar-nav {
+    background-image: none;
+}
+
 ul, ol {
     list-style-type: none;
     margin: 2%;
@@ -68,11 +76,12 @@ li a {
 li a:hover {
     background-color: #966ef6;
 }
+
+
 .navbar {
   overflow: hidden;
   background-color: #333;
   position: fixed;
-  bottom: 0;
   width: 80%;
 }
 
@@ -142,5 +151,12 @@ div.description {
     content: "";
     display: table;
     clear: both;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
