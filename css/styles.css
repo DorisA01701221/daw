@@ -1,12 +1,42 @@
-body{background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
+.contenedor-introduccion {
+  color: white;
+  background-image: url(http://lacasadelrebozo.com.mx/wp-content/uploads/2013/05/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.card{
+  min-height: 100% !important;
+}
+.lab3{
+  background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+  font-family: verdana;
+}
+/*
+body{
+    background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
     margin-left:10%;
     margin-right:10%;
     margin-top: auto;
     margin-bottom: auto;
 
 }
+.card{
+  min-height: 200px !important;
+}
+
+
+
 h1  {color: black;
     font-family: verdana;
     font-size: 400%;
@@ -97,7 +127,9 @@ li a:hover {
   background-color:	#FF6060;
   color: white;
 }
+
 /*mini shop*/
+
 div.minishop {
     border: 1px solid #ccc;
 }
@@ -145,8 +177,8 @@ div.description {
     clear: both;
 }
 
-
 /*AQUÍ ES DEL MENU*/
+/*
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -186,7 +218,9 @@ div.description {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+*/
 /*login lab 10*/
+
 #login {
     border: 3px solid #f1f1f1;
     width: 100%;;
