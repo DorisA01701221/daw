@@ -1,0 +1,258 @@
+.contenedor-introduccion {
+  color: white;
+  background-image: url(http://lacasadelrebozo.com.mx/wp-content/uploads/2013/05/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.card{
+  min-height: 100% !important;
+}
+.lab3{
+  background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+  font-family: verdana;
+}
+/*
+body{
+    background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.card{
+  min-height: 200px !important;
+}
+
+
+
+h1  {color: black;
+    font-family: verdana;
+    font-size: 400%;
+    text-align: center;
+}
+h2 {color: rgb(60,60,60);
+    font-family: arial;
+    font-size: 350%;
+    text-align: center;
+}
+h3 {border: #EE5288;
+    background-image: url(https://img.freepik.com/free-vector/technology-background-with-gradient-colors_23-2147837710.jpg?size=338c&ext=jpg);
+    font-family: arial;
+    font-size: 300%;
+    color: white;
+    text-align: center;
+}
+p    {color: black;
+    font-family: arial;
+    font-size: 250%;
+    text-align: center;
+    background-image: url(https://wallpapertag.com/wallpaper/full/a/b/c/235308-aesthetic-background-tumblr-2280x1668-meizu.jpg);
+}
+table, th, tr, td {background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/RfeyEzE/random-lines-purple-geometric-shapes-background_ryp-ysybl_thumbnail-full01.png);
+    font-family: arial;
+    font-size: 100%;
+    color: white;
+    border: 1px ;
+}
+td:hover {
+    background-color: #f3cbfb;
+}
+th:hover{
+    background-color: #efabfc;
+}
+ul, ol {
+    list-style-type: none;
+    margin: 2%;
+    padding: 2%;
+    overflow: hidden;
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/RfeyEzE/random-lines-purple-geometric-shapes-background_ryp-ysybl_thumbnail-full01.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 300%;
+}
+
+li a:hover {
+    background-color: #966ef6;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  float: none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color:	#FF6060;
+  color: white;
+}
+
+/*mini shop*/
+
+div.minishop {
+    border: 1px solid #ccc;
+}
+
+div.minishop:hover {
+    border: 1px solid #777;
+}
+
+div.minishop img {
+    width: 100%;
+    height: auto;
+}
+
+div.description {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*AQUÍ ES DEL MENU*/
+/*
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+*/
+/*login lab 10*/
+
+#login {
+    border: 3px solid #f1f1f1;
+    width: 100%;;
+}
+.login100-form-btn{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 42px;
+    border-radius: 21px;
+    background: -webkit-linear-gradient(left, #a445b2, #d41872, #fa4299);
+    position:relative;
+    text-align: center;
+}
+.container-login{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+label{
+  width: 8%;
+  float: left;
+}
