@@ -6,11 +6,13 @@
         }
         return $suma/sizeof($arr);
     }
+
     function mediana($arr){
         if (sort($arr)){
             return $arr[sizeof($arr)/2];
         }
     }
+
     function imprimeArreglo($arr){
         echo '<ul>';
             echo '<li>el promedio es: '.promedio($arr).'</li>';
@@ -32,6 +34,7 @@
                 }
             echo '</ul>';
     }
+
     function tabla(){
         echo'<table>
             <thead>
@@ -53,6 +56,7 @@
         echo'</tbody>';
         echo'</table>';
     }
+    
     function inverso($arreglo){
         $len=sizeof($arreglo);
         $inverse="";

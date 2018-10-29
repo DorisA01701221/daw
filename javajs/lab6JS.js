@@ -1,5 +1,5 @@
 function validar_password(){
-    let password1= document.getElementById("password1").value.style.position = "absolute";
+    let password1= document.getElementById("password1").value;
     let password2= document.getElementById("password2").value;
 
   if(password1.length == 0 || !(password1.length >= 5 && password1.length <= 10)){
@@ -47,5 +47,9 @@ function validar_submit(){
 
   if(email != '' && password != '' && (password.length >= 5 && password.length <= 10) ) {
     form.submit();
+  }else{
+        alert('tu contraseña o email son incorrectos');
   }
+
+
 }

@@ -1,0 +1,119 @@
+body{
+  background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+  font-family: verdana;
+}
+h1  {
+    color: black;
+    font-family: verdana;
+    font-size: 400%;
+    text-align: center;
+}
+h2 {
+    color: rgb(60,60,60);
+    font-family: arial;
+    font-size: 350%;
+    text-align: center;
+}
+h3 {
+    border: #EE5288;
+    background-image: url(https://img.freepik.com/free-vector/technology-background-with-gradient-colors_23-2147837710.jpg?size=338c&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial;
+    font-size: 300%;
+    color: white;
+    text-align: center;
+}
+p    {
+    color: black;
+    font-family: arial;
+    font-size: 250%;
+    text-align: center;
+    background-image: url(https://wallpapertag.com/wallpaper/full/a/b/c/235308-aesthetic-background-tumblr-2280x1668-meizu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table, th, tr, td {
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/RfeyEzE/random-lines-purple-geometric-shapes-background_ryp-ysybl_thumbnail-full01.png);
+    font-family: arial;
+    font-size: 100%;
+    color: white;
+    border: 1px ;
+    text-align: center;
+}
+td:hover {
+    background-color: #f3cbfb;
+}
+th:hover{
+    background-color: #efabfc;
+}
+ul, ol {
+    list-style-type: none;
+    margin: 2%;
+    padding: 2%;
+    overflow: hidden;
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/RfeyEzE/random-lines-purple-geometric-shapes-background_ryp-ysybl_thumbnail-full01.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+li {
+    float: left;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 300%;
+}
+
+li a:hover {
+    background-color: #966ef6;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  float: none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color:	#FF6060;
+  color: white;
+}
+.cantante{
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}

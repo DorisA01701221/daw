@@ -1,12 +1,14 @@
-body{background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin-left:10%;
-    margin-right:10%;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-style: normal;
-    font-size: medium;
+body{
+  background-image: url(http://static.tumblr.com/5uvtpxx/Dzlmplaee/light__4_.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+  font-family: verdana;
 }
 header{
     padding-top: 1rem;
@@ -21,7 +23,7 @@ img.irc_mi{
     border-radius: 50%;
 }
 section.validaciones{
-    
+
 }
 div.divider{
     height: 1px;
