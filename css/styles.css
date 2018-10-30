@@ -94,3 +94,17 @@ label{
   width: 8%;
   float: left;
 }
+/*lab11*/
+h5{
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  background-image: url(https://ak5.picdn.net/shutterstock/videos/10019765/thumb/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ingreso{
+  text-align: center;
+  
+}
