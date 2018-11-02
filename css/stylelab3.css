@@ -84,6 +84,7 @@ li a {
 li a:hover {
     background-color: #966ef6;
 }
+/*
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -112,6 +113,7 @@ li a:hover {
   background-color:	#FF6060;
   color: white;
 }
+*/
 .cantante{
   text-align: center;
   margin: 1rem;
